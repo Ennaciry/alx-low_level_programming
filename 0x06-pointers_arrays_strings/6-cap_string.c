@@ -15,7 +15,7 @@ char *cap_string(char *str)
 	for (i = 0, z  = 0; str[i] != '\0'; i++)
 	{
 		if (str[0] > 96 && str[0] < 123)
-			z = 1:
+			z = 1;
 		for (j = 0; nots[j] != '\0'; j++)
 		{
 			if (nots[j] == str[i])
@@ -30,7 +30,7 @@ char *cap_string(char *str)
 				z = 0;
 			}
 			else if (str[i] > 64 && str[i] < 91)
-				z= 0;
+				z = 0;
 			else if (str[i] > 47 && str[i] < 58)
 				z = 0;
 		}
